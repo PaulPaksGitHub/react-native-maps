@@ -137,7 +137,7 @@ ext {
     targetSdkVersion    = 26
     buildToolsVersion   = "26.0.2"
     supportLibVersion   = "26.1.0"
-    googlePlayServicesVersion = "11.8.0"
+    googlePlayServicesVersion = "15.0.1"
     androidMapsUtilsVersion = "0.5+"
 }
 ```
@@ -152,8 +152,8 @@ dependencies {
        exclude group: 'com.google.android.gms', module: 'play-services-base'
        exclude group: 'com.google.android.gms', module: 'play-services-maps'
    }
-   implementation 'com.google.android.gms:play-services-base:10.0.1'
-   implementation 'com.google.android.gms:play-services-maps:10.0.1'
+   implementation 'com.google.android.gms:play-services-base:15.0.1'
+   implementation 'com.google.android.gms:play-services-maps:15.0.1'
 }
 ```
 
